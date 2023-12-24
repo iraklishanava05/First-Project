@@ -1,0 +1,655 @@
+:root {
+  --primary-color: #960c10;
+  --secondary-color: #df080f;
+  --thirdly-color: #4e0002;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ________________________________________________MENU--END____ */
+main section.menu div.container div h1 {
+  color: var(--secondary-color);
+}
+
+main section.menu span {
+  font-weight: 700;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+
+main section.menu div.container p {
+  line-height: 20px;
+}
+
+main section.menu div.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0px auto;
+  width: 700px;
+  height: 100%;
+  background-color: white;
+}
+
+main section.menu {
+  background-image: url("/photos/sushi.webp");
+  width: 100%;
+  height: 1550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+} /* ________________________________________________MENU--START____ */
+/* ________________________________________________MAIN--ABOUT--END____ */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ________________________________________________MAIN SECTION.CONTACT--END____ */
+main section.contact article.icon {
+  display: flex;
+  justify-content: right;
+  margin: 30px;
+}
+
+main section.contact article.contact div.footer span a {
+  color: white;
+}
+
+main section.contact article.contact div.footer {
+  margin: 0 64px 0px;
+}
+
+main section.contact article.contact div.join button:hover {
+  border: 2px solid var(--thirdly-color);
+  background-color: var(--thirdly-color);
+  color: white;
+}
+
+main section.contact article.contact div.join button {
+  margin: 0 20px;
+  font-size: 17px;
+  width: 90px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 30px;
+  transition: 0.4s ease-out;
+}
+
+main section.contact article.contact div.join input::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main section.contact article.contact div.join input {
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 10px 0 0 0;
+  background: transparent;
+  padding: 0 10px;
+  width: 50%;
+}
+
+main section.contact article.contact div.join {
+  padding: 0 65px;
+}
+
+main section.contact article.contact div.info span h4 {
+  font-size: 24px;
+}
+
+main section.contact article.contact div.info span {
+  letter-spacing: 1px;
+  margin: 20px 20px 0;
+  line-height: 6px;
+}
+
+main section.contact article.contact div.info {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+}
+
+main section.contact article.contact {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+main section.contact {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+/* ________________________________________________MAIN SECTION.CONTACT____ */
+/* ________________________________________________MAIN SECTION.PHOTO____ */
+main section.photo div.overlay div {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+main section.photo div.overlay:hover {
+  color: white;
+  background-color: rgba(98, 20, 20, 0.359);
+}
+
+main section.photo div.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  transition: 0.4s ease-out;
+}
+
+main section.photo div.photo5 {
+  background-image: url("/photos/photo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+main section.photo div.photo4 {
+  background-image: url("/photos/photo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+main section.photo div.photo3 {
+  background-image: url("/photos/photo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+main section.photo div.photo2 {
+  background-image: url("/photos/photo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+main section.photo div.photo1 {
+  background-image: url("/photos/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+section.photo {
+  display: grid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  margin: 60px 0;
+  overflow: hidden;
+}
+
+/* ________________________________________________MAIN SECTION.PHOTO____ */
+/* ________________________________________________MAIN SECTION.FOLLOW--END____ */
+main section.follow span {
+  font-size: 40px;
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
+main section.follow h1 {
+  font-weight: 400;
+}
+
+main section.follow {
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* ________________________________________________MAIN SECTION.FOLLOW____ */
+/* ________________________________________________MAIN SECTION.ORDER--END____ */
+main section.order div.reserve button.btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+main section.order div.reserve button.btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  height: 40px;
+  font-size: 18px;
+  color: var(--secondary-color);
+  border: 2px solid white;
+  background-color: white;
+  transition: 0.4s ease;
+}
+
+main section.order div.reserve div button:hover {
+  border: 2px solid white;
+}
+
+main section.order div.reserve div button {
+  margin: 10px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  width: 100%;
+  height: 35px;
+  border-radius: 40px;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.591);
+  text-align: left;
+  cursor: pointer;
+}
+
+main section.order div.reserve div p {
+  text-align: center;
+  line-height: 0px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+main section.order div.reserve div h1 {
+  margin: 0 0 40px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 0;
+}
+
+main section.order div.reserve div {
+  width: 100%;
+  padding: 0 100px;
+}
+
+main section.order div.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+main section.order div.online button:hover {
+  background-color: var(--thirdly-color);
+  border: var(--thirdly-color);
+  color: white;
+}
+
+main section.order div.online button {
+  width: 170px;
+  height: 40px;
+  margin: 10px 0;
+  border-radius: 50px;
+  border: 2px solid var(--primary-color);
+  font-size: 18px;
+  color: var(--primary-color);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+main section.order div.online p {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 13px;
+  margin: 40px 0;
+}
+
+main section.order div.online h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 30px 0 -20px;
+}
+
+main section.order div.online {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+main section.order {
+  display: grid;
+  background-image: none;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+/* ________________________________________________MAIN SECTION.ORDER____ */
+/* ________________________________________________MAIN SECTION.FAS--END____ */
+main section.fas div.logo {
+  display: flex;
+  justify-content: right;
+  margin: 60px;
+}
+
+main section.fas div.logo div.img svg {
+  width: 120px;
+  height: 120px;
+  rotate: 20deg;
+}
+
+main section.fas div.logo div.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: center;
+  background-position-y: 4px;
+  border: 3px solid white;
+  background-image: url("https://static.wixstatic.com/media/c837a6_9acef8c60e2a440ca5eebc131e2af90a~mv2.png/v1/fill/w_199,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled-2-01%201.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main section.fas div p {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+main section.fas div h1 {
+  font-size: 40px;
+  line-height: 20px;
+}
+
+main section.fas div.section {
+  margin: 120px 120px;
+  width: 100%;
+  max-width: 55ch;
+}
+
+main section.fas {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-image: url("/photos/f.e.s.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ________________________________________________MAIN SECTION.FAS____ */
+/* ________________________________________________MAIN SECTION.SND--END____ */
+main section.snd div h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+main section.snd {
+  color: black;
+}
+
+main section.snd div {
+  padding: 40px 0;
+}
+
+main section.snd div.dumplings div {
+  width: 242px;
+  line-height: 13px;
+  max-width: 30ch;
+  text-align: center;
+}
+
+main section.snd div.noodles div {
+  text-align: center;
+  line-height: 13px;
+  width: 222px;
+  max-width: 25ch;
+}
+
+main section.snd div.noodles {
+  display: flex;
+  justify-content: center;
+}
+
+main section.snd div.soups div {
+  text-align: center;
+  line-height: 13px;
+  margin: 0 60px;
+  max-width: 25ch;
+}
+
+main section.snd div.soups {
+  display: grid;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+main section.snd {
+  display: grid;
+  background: none;
+  height: 400px;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  grid-template-rows: 2fr;
+  width: 100%;
+}
+
+/* ________________________________________________MAIN SECTION.SND____ */
+/* ________________________________________________MAIN SECTION.TRD--END____ */
+main section.trd {
+  margin: 5px 0;
+  padding: 100px 0px;
+}
+
+main section.trd div.svg {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+main section.trd div.button {
+  display: flex;
+  justify-content: center;
+  margin: 2 0px 0px;
+}
+
+main section.trd button {
+  width: 150px;
+  height: 30px;
+  border-radius: 35px;
+  border: 1px solid white;
+  background: transparent;
+  font-size: 1rem;
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+main section.trd button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+main section.trd span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 16px;
+}
+
+main section.trd article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 90px;
+  font-weight: 800;
+  font-size: 80px;
+  width: 100%;
+}
+
+main section.trd {
+  width: 100%;
+  height: 300px;
+  color: white;
+  background-image: url("/photos/1213.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ________________________________________________MAIN SECTION.TRD____ */
+/* ________________________________________________NAV BAR--END____ */
+nav div.aside a {
+  color: black;
+}
+
+nav svg {
+  padding: 20px;
+}
+
+nav article {
+  position: absolute;
+  margin: 0 100px;
+  margin-top: -80px;
+  max-width: 30px;
+}
+
+nav div.sec-aside {
+  display: flex;
+  justify-content: right;
+  padding: 0 20px;
+}
+
+nav div.sec-aside button {
+  width: 160px;
+  height: 40px;
+  margin: 25px;
+  font-size: 18px;
+  border-radius: 50px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+nav div.sec-aside button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+nav div.section {
+  text-align: center;
+  list-style: none;
+}
+
+nav div.section a {
+  text-decoration: none;
+  color: black;
+  padding: 0 30px;
+  transition: 0.5s ease;
+}
+
+nav div.section a:hover {
+  color: brown;
+}
+
+nav div.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div.aside div.container a {
+  text-align: start;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100px;
+}
+
+/* ________________________________________________NAV BAR____ */
+/* ________________________________________________HEADER--END____ */
+header div.login a {
+  text-decoration: none;
+  color: white;
+}
+
+header div.login a:hover {
+  color: rgb(204, 123, 140);
+}
+
+header div {
+  padding: 10px;
+}
+
+header div.login i {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+header div.login {
+  padding: 8px 40px;
+  text-align: right;
+}
+
+header div.text {
+  text-align: center;
+}
+
+header {
+  display: grid;
+  width: 100%;
+  height: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+nav div.section .active {
+  color: var(--secondary-color);
+}
+
+/* ________________________________________________HEADER____ */
+/* ________________________________________________MAIN--ABOUT____ */
+
+/*# sourceMappingURL=style.css.map */

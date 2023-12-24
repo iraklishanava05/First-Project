@@ -1,0 +1,197 @@
+@media screen and (max-width: 710px) {
+  main section.trd article {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  main section.trd span {
+    font-size: 12px;
+  }
+
+  main section.snd {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
+  main section.snd div.dumplings {
+    display: flex;
+    justify-content: center;
+  }
+
+  main section.snd div.soups {
+    justify-content: center;
+  }
+
+  main section.order {
+    grid-template-columns: 1fr;
+  }
+
+  main section.fas {
+    grid-template-columns: 1fr;
+  }
+
+  main section.fas div.section {
+    margin: 0 10px;
+  }
+
+  main section.fas div.logo {
+    display: none;
+  }
+}
+
+/* _________________________________________Menu---end____________________ */
+
+@media screen and (max-width: 940px) {
+  main section.follow {
+    margin: 100px 0 0;
+  }
+
+  main section.photo {
+    grid-template-columns: 1fr;
+    margin: 100px 0;
+    row-gap: 25px;
+    box-sizing: border-box;
+  }
+
+  main section.order {
+    grid-template-columns: 1fr;
+  }
+  header div.space {
+    display: none;
+    line-height: 0px;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    height: 100px;
+  }
+
+  header div.login {
+    text-align: center;
+  }
+
+  nav div.aside {
+    display: none;
+  }
+
+  nav {
+    margin: 20px 0;
+    grid-template-columns: 1fr;
+  }
+
+  nav div.sec-aside {
+    justify-content: center;
+  }
+
+  nav div.section ul li a {
+    padding: 0 0px;
+  }
+
+  main section.contact {
+    grid-template-columns: 1fr;
+  }
+
+  main section.menu {
+    margin: 20px 0;
+  }
+  main section.menu div.container {
+    width: 500px;
+  }
+
+  main section.contact article.contact div.info {
+    margin: 0 0;
+  }
+
+  main section.contact article.icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  main section.fas div p {
+    width: 95%;
+  }
+
+  main section.menu span {
+    font-size: 20px;
+  }
+
+  main section.order div.reserve div {
+    padding: 0;
+  }
+
+  main section.order div.reserve div p {
+    font-size: 14px;
+  }
+
+  main section.contact article.contact div.info {
+    height: 260px;
+  }
+
+  main section.contact article.contact div.join {
+    padding: 0;
+  }
+
+  main section.contact article.contact div.info span p {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  main section.contact article.contact div.info span {
+    margin: 0 5px;
+  }
+
+  main section.contact article.contact div.info span h4 {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+
+  main section.menu div.container {
+    width: 240px;
+  }
+
+  main section.contact article.contact div.footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  nav div.section a {
+    padding: 0 10px;
+  }
+
+  main section.contact article.contact div.info {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+  }
+
+  main section.order div.reserve div p {
+    font-size: 13px;
+  }
+
+  main section.order div.online p {
+    font-size: 25px;
+    line-height: 10px;
+  }
+
+  main section.order div.reserve div {
+    padding: 0;
+  }
+  main section.menu div.container {
+    width: 220px;
+  }
+
+  main section.contact article.contact div.footer {
+    display: none;
+  }
+
+  main section.photo {
+    grid-template-columns: 1fr;
+  }
+
+  main section.follow span {
+    font-size: 30px;
+  }
+}
+/* _________________________________________Menu____________________ */
